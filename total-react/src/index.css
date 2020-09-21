@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(163, 163, 162);
+  text-align: center;
+  font-weight: 100;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(20, 25, 29);
+}
+
+.App{
+  min-height: 100vh;
+}
+
+.toggle{
+  background-color: rgb(35, 42, 48);
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.toggleClass h3.red{
+  color: rgb(209, 68, 68);
+}
+.toggleClass button{
+  color: black;
+  margin: 0.5rem;
+  border-radius: 35px;
+  padding: 10px 13px;
+  outline: none;
+  border: none;
+  background-color: rgb(182, 214, 150);
+}
+
+h1{
+  padding: 2rem 0;
+  color: rgb(109, 172, 153);
+}
+
+.toggleElement-wrapper{
+  background-color: rgba(255, 255, 255, 0.123);
+  border-radius: 10px;
+  width: 90%;
+  margin: 2rem auto;
+  min-height: 13rem;
+  position: relative;
+}
+ u{
+  color: rgb(150, 230, 250);
+  padding-top: 1rem;
+  display: block;
+  font-size: 25px;
+  font-weight: 100;
+}
+.click{
+  position: absolute;
+  left: 13%;
+}
+.arrow{
+  position: absolute;
+  top: 4rem;
+  left: 14%;
+  margin: 0;
+}
+.toggleElement{
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  justify-content: space-between;
+}
+.toggleElement img{
+  width: 20%;
+  margin-top: 1rem;
+}
+.toggleElement-content{
+  width: 50%;  
+}
+.toggleElement-content p{
+  color: white;
+  text-align: justify;
+}
+
+.add{
+  color: black;
+  margin: 0.5rem;
+  border-radius: 35px;
+  padding: 10px 13px;
+  outline: none;
+  border: none;
+  background-color: rgb(243, 199, 141);
+}
+#remove{
+  display: none;
+}
+.removeComp {
+  height: 1rem;
+  width: 1rem;
+  background-color: #ad4024;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  position: relative;
+  color: white;
+}
+
+
+.delete{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.addState-container button{
+  color: black;
+  margin: 0.5rem;
+  border-radius: 35px;
+  padding: 10px 13px;
+  outline: none;
+  border: none;
+  background-color: rgb(163, 210, 248);
+}
+.button{
+  padding-top: 0.7rem;
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 10px;
+  width: 90%;
+  margin: 2rem auto;
+  min-height: 13rem;
+  position: relative;
+}
+.card p{
+  margin-top: 1rem;
+}
+.cardX .x{
+  width: 5px;
+  height: 5px;
+  background-color: #ad4024;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+}
+.deleteX{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tweets{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.tweet{
+  width:200px;
+  height: 100px;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.103);
+  border-radius: 8px;
+  border-top: 3px solid rgb(132, 153, 75);
+}
+.firstLine,
+.secondLine{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.tweetsComp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(35, 42, 48);
+}
